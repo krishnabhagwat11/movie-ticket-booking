@@ -26,13 +26,9 @@ const Navbar: React.FC = () => {
   return (
     <>
       <nav className="bg-amber-400 bg-opacity-90 text-white px-4 py-4 flex justify-between items-center backdrop-filter backdrop-blur-lg shadow-lg">
-        <ul>
-          <li>
-            <Link href="/">
-              <h1 className="text-xl font-bold">movieCo</h1>
-            </Link>
-          </li>
-        </ul>
+        <a href="/">
+          <h1 className="text-xl font-bold">movieCo</h1>
+        </a>
 
         <SearchBar />
 
