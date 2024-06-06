@@ -25,7 +25,7 @@ import SearchBar from "./SearchBar";
 const Navbar: React.FC = () => {
   return (
     <>
-      <nav className="bg-amber-400 font-dm-serif fixed top-0 left-0 right-0 z-50 bg-opacity-90 text-white px-4 py-4 flex justify-between items-center backdrop-filter backdrop-blur-lg shadow-lg">
+      <nav className="bg-amber-400 font-dm-serif bg-opacity-90 text-white px-4 py-4 flex justify-between items-center backdrop-filter backdrop-blur-lg shadow-lg">
         <a href="/">
         <h1 className="text-xl font-bold">movieCo</h1>
         </a>
