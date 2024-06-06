@@ -3,7 +3,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install nodemodules
+
+```bash
+npm i
+or
+npm install
+```
+also, install shadcn UI and install required components
+
+```bash
+npx shadcn-ui@latest init
+```
+
+then, run the development server:
 
 ```bash
 npm run dev
