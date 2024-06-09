@@ -4,14 +4,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
@@ -35,13 +27,20 @@ const Navbar: React.FC = () => {
         {/* location */}
 
         <div className="flex items-center space-x-4">
-          <div>
-            <Link href="/login">
-              <Button variant="ghost">Login</Button>
-            </Link>
+          <div className="flex space-x-4">
+            <div>
+              <Link href="/login">
+                <Button variant="ghost">Login</Button>
+              </Link>
+            </div>
+            <div>
+              <Link href="/">
+                <Button variant="ghost">Profile</Button>
+              </Link>
+            </div>
           </div>
 
-          <div>
+          {/* <div>
             <DropdownMenu>
               <DropdownMenuTrigger>Profile</DropdownMenuTrigger>
               <DropdownMenuContent className="bg-black text-white">
@@ -56,7 +55,7 @@ const Navbar: React.FC = () => {
                 <DropdownMenuItem>Settings</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-          </div>
+          </div> */}
           <div>
             <Avatar>
               <AvatarImage src="https://github.com/shadcn.png" />
