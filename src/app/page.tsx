@@ -122,7 +122,13 @@ const HomePage: React.FC = () => {
         >
           <CarouselContent>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 1" className="rounded" />
+              <link href={`/movies/${movie.id}`}>
+                <a>
+                  <img
+                    src="../images/bg.jpeg" alt="Image 1" className="rounded"
+                  />
+                </a>
+              </link>
             </CarouselItem>
             <CarouselItem className="basis-1/5">
               <img src="../images/bg.jpeg" alt="Image 2" className="rounded" />
@@ -145,9 +151,7 @@ const HomePage: React.FC = () => {
         </Carousel>
 
         <div className="flex justify-start items-baseline">
-          <h2 className="text-3xl font-bold mt-10 mb-6 items-center">
-            events
-          </h2>
+          <h2 className="text-3xl font-bold mt-10 mb-6 items-center">events</h2>
           <button
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
