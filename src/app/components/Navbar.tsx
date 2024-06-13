@@ -39,29 +39,6 @@ const Navbar: React.FC = () => {
               </Link>
             </div>
           </div>
-
-          {/* <div>
-            <DropdownMenu>
-              <DropdownMenuTrigger>Profile</DropdownMenuTrigger>
-              <DropdownMenuContent className="bg-black text-white">
-                <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem>Profile</DropdownMenuItem>
-                <DropdownMenuItem>Billing</DropdownMenuItem>
-                <DropdownMenuItem>Notification</DropdownMenuItem>
-                <DropdownMenuItem>Subscription</DropdownMenuItem>
-                <DropdownMenuItem>Stream Plateform</DropdownMenuItem>
-                <DropdownMenuItem>Help & support</DropdownMenuItem>
-                <DropdownMenuItem>Settings</DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          </div> */}
-          <div>
-            <Avatar>
-              <AvatarImage src="https://github.com/shadcn.png" />
-              <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
-          </div>
         </div>
       </nav>
       <nav className="bg-emerald-800 px-4 py-2 text-white flex justify-between items-center backdrop-filter backdrop-blur-lg">
@@ -71,9 +48,6 @@ const Navbar: React.FC = () => {
           </li>
           <li>
             <Link href="/events">Events</Link>
-          </li>
-          <li>
-            <Link href="/streams">Streams</Link>
           </li>
           <li>
             <Link href="/finds">Finds</Link>
