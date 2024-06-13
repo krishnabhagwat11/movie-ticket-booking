@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   // const { value: isDarkMode, toggle } = useDarkMode();
   return (
-    <div className="bg-neutral-900">
+    <div className="bg-regal-blue-400">
       <Navbar />
       <main className="container mx-auto px-4 py-10">
         <Carousel className="main-carousel">
@@ -144,10 +144,19 @@ const HomePage: React.FC = () => {
           <CarouselNext />
         </Carousel>
 
+        <div className="w-full mt-10">
+          <AspectRatio ratio={100 / 9} className="bg-muted">
+            <Image
+              src="/images/bg.jpeg"
+              alt="Photo by Drew Beamer"
+              className="rounded-[30px] object-cover pt-4 pr-4 pl-4 pb-4 mt-2 mb-2"
+              layout="fill"
+            />
+          </AspectRatio>
+        </div>
+
         <div className="flex justify-start items-baseline">
-          <h2 className="text-3xl font-bold mt-10 mb-6 items-center">
-            events
-          </h2>
+          <h2 className="text-3xl font-bold mt-10 mb-6 items-center">events</h2>
           <button
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -189,25 +198,6 @@ const HomePage: React.FC = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-
-        <div className="w-full">
-          <AspectRatio ratio={100 / 9} className="bg-muted">
-            <Image
-              src="/images/bg.jpeg"
-              alt="Photo by Drew Beamer"
-              className="rounded-[30px] object-cover pt-4 pr-4 pl-4 pb-4 mt-2 mb-2"
-              layout="fill"
-            />
-          </AspectRatio>
-        </div>
-
-        <p className="text-lg mt-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-          perspiciatis unde omnis iste natus error sit voluptatem accusantium
-          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-          inventore veritatis et quasi architecto beatae vitae dicta sunt
-          explicabo.
-        </p>
       </main>
 
       <Footer />

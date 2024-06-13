@@ -19,6 +19,10 @@ const config = {
     },
     extend: {
       colors: {
+        'regal-blue-100' : '#ccc5b9',
+        'regal-blue-200' : '#c1b9aa',
+        'regal-blue-300' : '#aba18d',
+        'regal-blue-400' : '#13110e',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

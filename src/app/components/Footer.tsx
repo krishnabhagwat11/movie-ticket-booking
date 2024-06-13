@@ -9,7 +9,7 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-emerald-800 text-white px-4 py-2 text-center">
+    <footer className="bg-regal-blue-100 text-zinc-700 px-4 py-2 text-center">
       <p>&copy; 2024 Movie Ticket Booking</p>
 
       <Accordion type="single" collapsible>
