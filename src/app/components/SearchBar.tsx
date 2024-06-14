@@ -27,9 +27,9 @@ const Searchbar: React.FC<SearchbarProps> = ({ onSearch }) => {
         value={query}
         onChange={handleSearchChange}
         placeholder="Search for movies, events, etc."
-        className="px-4 py-2 rounded-full text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-700 w-1/2" 
+        className="px-4 py-2 rounded-full text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-regal-blue-400 w-1/2" 
       />
-      <button type="submit" className="ml-2 p-2 rounded-full hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-700">
+      <button type="submit" className="ml-2 p-2 rounded-full hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-regal-blue-400">
         <MdOutlineYoutubeSearchedFor className="h-5 w-5 text-gray-500" />
       </button>
     </form>

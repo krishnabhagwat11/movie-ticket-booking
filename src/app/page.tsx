@@ -14,6 +14,7 @@ import {
 import Image from "next/image";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
+
 const HomePage: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   // const { value: isDarkMode, toggle } = useDarkMode();
@@ -160,7 +161,7 @@ const HomePage: React.FC = () => {
           <button
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            onClick={() => (window.location.href = "/movies")}
+            onClick={() => (window.location.href = "/events")}
             className="hover:text-cyan-400 font-bold py-2 px-4 mt-10 mb-4 show-all-button"
           >
             <span>{isHovered ? "show all >" : "show all >"}</span>
