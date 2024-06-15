@@ -19,9 +19,9 @@ import SearchBar from "./SearchBar";
 const Navbar: React.FC = () => {
   return (
     <>
-      <nav className="bg-regal-blue-300 bg-opacity-90 text-white px-4 py-2 flex justify-between items-center backdrop-filter backdrop-blur-lg shadow-lg">
+      <nav className="bg-regal-blue-400 bg-opacity-90 text-stone-300 px-4 py-2 flex justify-between items-center backdrop-filter backdrop-blur-lg shadow-lg">
         <a href="/">
-          <h1 className="text-xl font-bold">movieCo</h1>
+          <h1 className="text-2xl text-yellow-300 font-bold">movieCo</h1>
         </a>
 
         <SearchBar />
@@ -55,7 +55,8 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </nav>
-      <nav className="bg-regal-blue-100 px-4 py-2 text-zinc-700 flex justify-between items-center backdrop-filter backdrop-blur-lg rounded-b-xl">
+      <div className="bg-gray-500 h-px mx-4"></div>
+      <nav className="bg-stone-800 px-4 py-2 text-stone-300 flex justify-between items-center backdrop-filter backdrop-blur-lg">
         <ul className="flex space-x-4">
           <li>
             <Link href="/movies">Movies</Link>

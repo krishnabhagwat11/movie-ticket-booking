@@ -26,37 +26,37 @@ const HomePage: React.FC = () => {
           <CarouselContent>
             <CarouselItem>
               <img
-                src="../images/bg.jpeg"
+                src="../images/1717080055549_playcardweb.jpeg"  
                 alt="Image 1"
-                className="w-full h-[307px]"
+                className="w-full h-[307px] rounded-xl"
               />
             </CarouselItem>
             <CarouselItem>
               <img
-                src="../images/bg.jpeg"
+                src="../images/1717596921298_humare1240x300.jpeg"
                 alt="Image 2"
-                className="w-full h-[307px]"
+                className="w-full h-[307px] rounded-xl"
               />
             </CarouselItem>
             <CarouselItem>
               <img
-                src="../images/bg.jpeg"
+                src="../images/1718009496414_summerweb1240x300.jpeg"
                 alt="Image 3"
-                className="w-full h-[307px]"
+                className="w-full h-[307px] rounded-xl"
               />
             </CarouselItem>
             <CarouselItem>
               <img
-                src="../images/bg.jpeg"
+                src="../images/1717080055549_playcardweb.jpeg"
                 alt="Image 4"
-                className="w-full h-[307px]"
+                className="w-full h-[307px] rounded-xl"
               />
             </CarouselItem>
             <CarouselItem>
               <img
-                src="../images/bg.jpeg"
+                src="../images/1717596921298_humare1240x300.jpeg"
                 alt="Image 5"
-                className="w-full h-[307px]"
+                className="w-full h-[307px] rounded-xl"
               />
             </CarouselItem>
           </CarouselContent>
@@ -123,22 +123,22 @@ const HomePage: React.FC = () => {
         >
           <CarouselContent>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 1" className="rounded" />
+              <img src="../images/1.jpeg" alt="Image 1" className="rounded"/>
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 2" className="rounded" />
+              <img src="../images/2.jpeg" alt="Image 2" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 3" className="rounded" />
+              <img src="../images/3.jpeg" alt="Image 3" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 4" className="rounded" />
+              <img src="../images/4.jpeg" alt="Image 4" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 5" className="rounded" />
+              <img src="../images/5.jpeg" alt="Image 5" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 6" className="rounded" />
+              <img src="../images/6.jpeg" alt="Image 6" className="rounded" />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
@@ -148,7 +148,7 @@ const HomePage: React.FC = () => {
         <div className="w-full mt-10">
           <AspectRatio ratio={100 / 9} className="bg-muted">
             <Image
-              src="/images/bg.jpeg"
+              src="/images/ad.jpeg"
               alt="Photo by Drew Beamer"
               className="rounded-[30px] object-cover pt-4 pr-4 pl-4 pb-4 mt-2 mb-2"
               layout="fill"
@@ -178,22 +178,22 @@ const HomePage: React.FC = () => {
         >
           <CarouselContent>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 1" className="rounded" />
+              <img src="../images/e1.jpeg" alt="Image 1" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 2" className="rounded" />
+              <img src="../images/e2.jpeg" alt="Image 2" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 3" className="rounded" />
+              <img src="../images/e3.jpeg" alt="Image 3" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 4" className="rounded" />
+              <img src="../images/e4.jpeg" alt="Image 4" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 5" className="rounded" />
+              <img src="../images/e5.jpeg" alt="Image 5" className="rounded" />
             </CarouselItem>
             <CarouselItem className="basis-1/5">
-              <img src="../images/bg.jpeg" alt="Image 6" className="rounded" />
+              <img src="../images/e6.jpeg" alt="Image 6" className="rounded" />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
